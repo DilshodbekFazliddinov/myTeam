@@ -1,0 +1,206 @@
+html {
+  overflow-x: hidden;
+}
+.site_hero {
+  padding: 80px 120px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/hero.png);
+  background-position: right bottom;
+}
+
+.site_hero .container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wrap_hr {
+  background-color: #f67e7e;
+}
+.site_wrap {
+  width: 730px;
+}
+.wrap_text {
+  width: 690px;
+}
+.hero_title {
+  width: 100px;
+}
+.director {
+  padding: 100px 0;
+  background-color: #004047;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/director.png), url(../img/deliver.png);
+  background-position-x: left, right;
+  background-position-y: top, bottom;
+}
+
+.director_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 64px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 350px;
+  background-color: #012f34;
+  margin-bottom: 76px;
+  text-align: center;
+  padding-top: 32px;
+}
+.card_img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 16px;
+}
+.card_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+}
+.card_text {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.card_aden {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 8px;
+}
+.aden {
+  width: 254px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.network_about {
+  margin-bottom: 66px;
+}
+.network_link:not(:last-child) {
+  margin-right: 16px;
+}
+.client {
+  padding: 95px 0;
+  background-color: #012f34;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/client.png);
+}
+.client_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  padding: 75px 0;
+  background-color: #014e56;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(../img/director.png), url(../img/contact.png);
+  background-position-x: left, right;
+  background-position-y: top, bottom;
+}
+.contact_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact_wrap {
+  width: 540px;
+}
+.contact_title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.contact_text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #f67e7e;
+  margin-bottom: 42px;
+}
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 10px;
+}
+.contact_item_text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+form {
+  width: 540px;
+}
+input {
+  display: block;
+  width: 540px;
+  border: none;
+  padding: 16px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  margin-bottom: 8px;
+  outline: none;
+}
+input:hover,
+textarea:hover {
+  color: #f67e7e;
+  border-bottom: 1px solid #f67e7e;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.12px;
+}
+textarea {
+  padding: 16px;
+  width: 540px;
+  height: 84px;
+  resize: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  margin-bottom: 24px;
+}
+button {
+  padding: 9px 32px 11px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  cursor: pointer;
+}
